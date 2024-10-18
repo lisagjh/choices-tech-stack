@@ -1,4 +1,7 @@
-<!-- pages/index.vue -->
+<script>
+import IntroSection from "../components/IntroSection.vue";
+</script>
+
 <template>
   <div>
     <IntroSection title="Onze Leden">
@@ -11,17 +14,6 @@
     </IntroSection>
   </div>
 </template>
-
-<script>
-import IntroSection from "/components/IntroSection.vue";
-
-export default {
-  name: "IndexPage",
-  components: {
-    IntroSection,
-  },
-};
-</script>
 
 <style>
 /* Your styles here */
