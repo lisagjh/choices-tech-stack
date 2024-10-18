@@ -1,23 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Choices Choices: tech stack
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+"Bij FDND vinden we het belangrijk dat studenten framework agnostisch worden opgeleid. Het doel van deze opdracht is om te leren wat de verschillen en overeenkomsten zijn tussen tech-stacks."
+Tijdens de vorige sprint hebben wij gewerkt met Sveltekit en Directus om de nieuwe website van de DDA te maken. Deze sprint ga ik hetzelfde doen, maar dan met Nuxt.
+
+# Nuxt
 
 ## Setup
-
 Make sure to install the dependencies:
-
 ```bash
 # npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -27,15 +19,6 @@ Start the development server on `http://localhost:3000`:
 ```bash
 # npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,17 +26,7 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
@@ -61,13 +34,12 @@ Locally preview production build:
 ```bash
 # npm
 npm run preview
+```
 
-# pnpm
-pnpm run preview
 
-# yarn
-yarn preview
+### Bronnen
 
+[Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
 # bun
 bun run preview
 ```
