@@ -1,6 +1,6 @@
 <template>
   <NuxtLink to="/login" class="login">
-    Inloggen
+    <span>Inloggen</span>
     <svg
       width="16"
       height="16"
@@ -27,10 +27,17 @@
 
 <style>
 a.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3rem;
   color: var(--blue);
   text-transform: uppercase;
-  padding: 1rem 0.5rem;
   margin: 0 0;
+}
+
+a.login span {
+  padding: 0.75rem 0.5rem;
 }
 
 .login svg path {

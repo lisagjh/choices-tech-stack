@@ -40,22 +40,23 @@ a.join {
 }
 
 a.join span {
-  padding: 1rem 0.5rem;
+  padding: 0.75rem 0.5rem;
 }
 
 a.join div {
-  height: 100%;
-  padding: 1rem 0.5rem;
+  /* background-color: red; */
+  min-height: 100%;
+  padding: 0.75rem 0.5rem;
   border-left: 1px solid var(--black);
 }
 
 a.join:hover {
   color: var(--white);
-  border-width: 0px;
+  border-color: var(--blue);
 }
 
 a.join:hover div {
-  border-width: 0px;
+  border-color: var(--blue);
 }
 
 a.join:hover svg path {

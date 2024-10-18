@@ -10,10 +10,7 @@
         >
       </template>
     </IntroSection>
-    <div class="cta">
-      <Login />
-      <Join />
-    </div>
+    <CtaNav />
   </div>
 </template>
 
