@@ -25,7 +25,7 @@
   </NuxtLink>
 </template>
 
-<style>
+<style scoped>
 a.login {
   display: flex;
   flex-direction: row;

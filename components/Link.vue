@@ -20,7 +20,7 @@
     </a>
 </template>
 
-<style>
+<style scoped>
 
     a {
         display: flex;

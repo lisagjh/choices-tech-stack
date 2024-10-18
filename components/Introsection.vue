@@ -40,7 +40,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .intro-section {
     display: flex;
     flex-direction: column;

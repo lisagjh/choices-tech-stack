@@ -19,7 +19,7 @@
           <a href="/publicaties">Publicaties</a>
         </li>
         <li>
-          <a href="/leden">Leden</a>
+          <a href="/members">Leden</a>
         </li>
         <li>
           <a href="/vacatures">Vacatures</a>
@@ -54,7 +54,7 @@
   </footer>
 </template>
 
-<style>
+<style scoped>
 footer {
   display: flex;
   flex-direction: column;

@@ -30,7 +30,7 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 a.join {
   display: flex;
   flex-direction: row;
