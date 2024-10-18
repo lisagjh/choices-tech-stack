@@ -1,7 +1,7 @@
 <!-- pages/index.vue -->
 <template>
   <div>
-    <IntroSection title="Onze Leden" :displayHomeLink="false">
+    <IntroSection title="Onze Leden">
       <template #subtitle>
         De [nummer] beste digitale bureaus van Nederland zijn verenigd in Dutch
         Digital Agencies. Zet de juiste filters aan en zoek contact met het

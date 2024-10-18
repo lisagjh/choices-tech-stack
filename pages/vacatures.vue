@@ -1,7 +1,7 @@
 <!-- pages/index.vue -->
 <template>
   <div>
-    <IntroSection title="Vacatures" :displayHomeLink="true">
+    <IntroSection title="Vacatures">
       <template #subtitle>
        Verslim je carrière bij de beste digitale bureaus van Nederland. Pak je rol als developer of designer, researcher, als scrum master of marketeer, als strateeg. Start of groei door – en laat zien wat je kan.
       </template>

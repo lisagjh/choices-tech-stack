@@ -4,7 +4,7 @@ import IntroSection from "~/components/IntroSection.vue";
 
 <template>
   <div>
-    <IntroSection title="Events" :displayHomeLink="true">
+    <IntroSection title="Events">
       <template #subtitle>
         Spraakmakende sprekers. Inspirerende kennissessies. Events waar je écht
         bij wilt zijn. En waar je al je vakgenoten weer spreekt. Versterk je

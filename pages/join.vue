@@ -4,7 +4,7 @@ import IntroSection from "~/components/IntroSection.vue";
 
 <template>
   <div>
-    <IntroSection title="Join DDA" :displayHomeLink="true">
+    <IntroSection title="Join DDA">
       <template #subtitle>
         Word lid van Dutch Digital Agencies.
       </template>

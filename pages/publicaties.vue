@@ -1,7 +1,7 @@
 <!-- pages/index.vue -->
 <template>
   <div>
-    <IntroSection title="Publicaties" :displayHomeLink="true">
+    <IntroSection title="Publicaties">
       <template #subtitle>
        Om er voor te zorgen dat ook jij op de hoogte blijft van het laatste nieuws en interessante opinies met betrekking tot onze branche en digitale innovaties, delen we hier alle content die we of zelf hebben gecreëerd, bijvoorbeeld met input van onze leden, of verkregen hebben via één van onze partners.
       </template>

@@ -4,7 +4,7 @@ import IntroSection from "~/components/IntroSection.vue";
 
 <template>
   <div>
-    <IntroSection title="Inloggen" :displayHomeLink="true">
+    <IntroSection title="Inloggen">
       <template #subtitle> 
         Log in op jouw agency's DDA account.
       </template>
