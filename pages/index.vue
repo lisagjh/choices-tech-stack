@@ -10,7 +10,9 @@
         >
       </template>
     </IntroSection>
+    <client-only>
     <CtaNav />
+  </client-only>
   </div>
 </template>
 
