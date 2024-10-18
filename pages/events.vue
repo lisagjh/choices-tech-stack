@@ -14,7 +14,3 @@ import IntroSection from "/components/IntroSection.vue";
     </IntroSection>
   </div>
 </template>
-
-<style>
-/* Your styles here */
-</style>
