@@ -10,14 +10,7 @@
 </template>
 
 <script>
-import IntroSection from "../components/IntroSection.vue";
 
-export default {
-  name: 'IndexPage',
-  components: {
-    IntroSection,
-  }
-}
 </script>
 
 <style>

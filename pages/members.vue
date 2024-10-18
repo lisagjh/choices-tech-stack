@@ -1,5 +1,4 @@
 <script>
-import IntroSection from "../components/IntroSection.vue";
 </script>
 
 <template>
