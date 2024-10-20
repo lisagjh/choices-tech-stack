@@ -32,20 +32,21 @@ a.login {
   align-items: center;
   height: 3rem;
   color: var(--blue);
+  text-decoration: none;
   text-transform: uppercase;
   margin: 0 0;
 }
 
 a.login span {
   padding: 0.75rem 0.5rem;
+  padding-right: 0.25rem;
 }
 
 .login svg path {
   stroke: var(--blue);
 }
 
-a.join:hover {
-  background-color: var(--blue);
-  color: var(--white);
+.login:hover {
+  text-decoration: underline;
 }
 </style>

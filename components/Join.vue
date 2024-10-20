@@ -51,6 +51,7 @@ a.join div {
 }
 
 a.join:hover {
+  background-color: var(--blue);
   color: var(--white);
   border-color: var(--blue);
 }

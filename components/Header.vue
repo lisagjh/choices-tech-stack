@@ -68,7 +68,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 /* ingebouwde Nuxt active class */
 .router-link-active {
   background: var(--blue);
