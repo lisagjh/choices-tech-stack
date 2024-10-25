@@ -14,12 +14,18 @@ Tijdens de vorige sprint hebben wij gewerkt met Sveltekit en Directus om de nieu
 Een normale anchor tag maakt een nieuwe request naar de server als er op geklikt wordt, de server accepteert die en pre-rendert de gevraagde pagina, en stuurt die nar de browser.
 Door de NuxtLink te gebruiken, werkt het als een soort SPA. Een supercharged `<a>`. 
 NuxtLink intercepts de request naar de server, beoordeelt de request, en swapt de gevraagde componenten in en uit de pages. Dit is sneller. Ook gebruikt Nuxt ingebouwde active classes wanneer je op die page bent.
+- Nuxt is vrij snel met goede performance door de buildin SSR.
+- Built in Transitions, zjn customisable.
 
 ### Cons
 
-- `<NuxtLink>`: ingebouwde active classes werken ook automatisch op images, wat vaak niet de bedoeling is.
-- Styling: ik heb het idee dat de styling, ook de styling in de componenten, global is. Oplossing hiervoor is om met classes te werken. Toch vind ik hoe Sveltekit dit doet veel fijner.
+- Documentatie is onduidelijk, en lastig te begrijpen voor framework beginners zoals ik.
+- `<template>` om de html in de componenten vind ik in het begin en beetje verwarrend
+- `<NuxtLink>`: ingebouwde active classes werken ook automatisch op images, wat vaak niet de bedoeling is, en is lastig te omzeilen.
+- Lange laad tijd bij opstarten van Localhost.
+- Styling: CSS in een component is automatisch unscoped, tenzij je specificeert dat het scoped is. Duurde even voor ik dit door had.
 
+ 
 ## Setup
 Make sure to install the dependencies:
 ```bash
