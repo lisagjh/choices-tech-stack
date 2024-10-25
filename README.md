@@ -15,7 +15,7 @@ Een normale anchor tag maakt een nieuwe request naar de server als er op geklikt
 Door de NuxtLink te gebruiken, werkt het als een soort SPA. Een supercharged `<a>`. 
 NuxtLink intercepts de request naar de server, beoordeelt de request, en swapt de gevraagde componenten in en uit de pages. Dit is sneller. Ook gebruikt Nuxt ingebouwde active classes wanneer je op die page bent.
 - Nuxt is vrij snel met goede performance door de buildin SSR.
-- Built in Transitions, zjn customisable.
+- Grotere community: meer hulp mogelijk, meer oplossingen te vinden.
 
 ### Cons
 
@@ -24,7 +24,20 @@ NuxtLink intercepts de request naar de server, beoordeelt de request, en swapt d
 - `<NuxtLink>`: ingebouwde active classes werken ook automatisch op images, wat vaak niet de bedoeling is, en is lastig te omzeilen.
 - Lange laad tijd bij opstarten van Localhost.
 - Styling: CSS in een component is automatisch unscoped, tenzij je specificeert dat het scoped is. Duurde even voor ik dit door had.
+- Nuxt is gebaseerd op Vue.js, waardoor het meer afhankelijk is daarvan en die code, wat kan zorgen voor grotere files en dus langzamere websites.
 
+
+# Sveltekit
+
+## Pros
+- Developer experience is beter: de docs zijn duidelijk en toegankelijker, en sveltekit heeft een tutorial op hun site die kan helpen.
+- Reactivity: de reactivity in Svelte vind ik simpeler en duidelijker.
+- Compiler: compiled code is vaak sneller dan interpreted code, omdat het meteen uitgevoerd kan worden door de computer.
+
+## Cons
+- Nieuwer
+- Kleinere community: minder kant en klare oplossingen en libraries
+- Minder SEO tools vergeleken met Nuxt
  
 ## Setup
 Make sure to install the dependencies:
